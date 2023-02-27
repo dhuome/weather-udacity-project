@@ -10,7 +10,7 @@ For this project I used the [OpenWeatherMap API](https://openweathermap.org/api)
 
 ## Preview
 
-![Homepage screenshot](website/img/weather-app.png)
+![Homepage screenshot](website/assets/images/snapshot_of_app.png)
 
 ## Instructions
 
