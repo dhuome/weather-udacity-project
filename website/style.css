@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    grid-gap: 1em;
+    background-image: url("assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.template {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    height: 40vh;
+    width: 30vw;
+    padding: 28px 20px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.input-container input {
+    width: 60%;
+    background: #ffffff;
+    caret-color: #320074;
+    padding: 10px 10px;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+
+.input-label {
+    color: #320074;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-title {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-shadow: 2px 4px 5px #444;
+}
+
+.input-container textarea {
+    width: 60%;
+    background: #ffffff;
+    caret-color: #320074;
+    padding: 10px 10px;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    resize: none;
+}
+
+::placeholder {
+    font-size: 18px;
+}
+
+button {
+    margin: auto;
+    cursor: pointer;
+    width: 400px;
+    height: 100px;
+    background: #320074;
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    transition: all .25s ease-in-out;
+}
+
+button:hover {
+    background: #32007482;
+}
+
+.holder {
+    color: #ffffff;
+    width: 30vw;
+    padding: 28px 20px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.sub-title {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-shadow: 2px 4px 5px #444;
+    padding-bottom: 15px;
+}
+
+.entry-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-shadow: 2px 4px 5px #444;
+}
