@@ -1,10 +1,28 @@
-# Weather-Journal App Project
+# Weather Journal App Project :cloud:
+
+Project three of Udacity's Frontend Developer Nanodegree. 
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+"This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI," according to the course.
+
+
+For this project I used the [OpenWeatherMap API](https://openweathermap.org/api) to obtain current weather information based on the user's zip code. The user can enter their zip code (US only) and feelings to generate a journal entry. This entry contains the current date, the temperature at the location entered, and the text entered by the user.
+
+## Preview
+
+![Homepage screenshot](website/img/weather-app.png)
 
 ## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+You'll need to install Node.js to run the app locally. It makes use of the following packages:
+
+- clone the repository 
+- run the `npm install` command
+
+
+Once everything is in place, use this command to launch the app.
+
+```
+npm start
+```
+This will launch a local server. Proceed to `localhost:3000` in your web browser, and you're ready to go!
